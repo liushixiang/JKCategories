@@ -572,7 +572,6 @@
 		B8102643206A120C0099CDA8 /* NSObject+JKAddProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A28BE3761A3EC1C6005C4AC6 /* NSObject+JKAddProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8102644206A120C0099CDA8 /* NSObject+JKGCD.h in Headers */ = {isa = PBXBuildFile; fileRef = A28BE3841A3ECF49005C4AC6 /* NSObject+JKGCD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8102645206A120C0099CDA8 /* NSObject+JKRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FD5B501A5269D400555EA2 /* NSObject+JKRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8102646206A120C0099CDA8 /* NSObject+JKAutoCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A24377211ACBE9CF00FFFEA1 /* NSObject+JKAutoCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8102647206A120C0099CDA8 /* NSObject+JKBlockTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB79A001AFDE0B600C12525 /* NSObject+JKBlockTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8102648206A120C0099CDA8 /* NSObject+JKKVOBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A202D9AC1B10305500EAB199 /* NSObject+JKKVOBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8102654206A12160099CDA8 /* NSObject+JKReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = A286CA771C291ECE000075D4 /* NSObject+JKReflection.m */; };
@@ -583,7 +582,6 @@
 		B8102659206A12160099CDA8 /* NSObject+JKAddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A28BE3771A3EC1C6005C4AC6 /* NSObject+JKAddProperty.m */; };
 		B810265A206A12160099CDA8 /* NSObject+JKGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = A28BE3851A3ECF49005C4AC6 /* NSObject+JKGCD.m */; };
 		B810265B206A12160099CDA8 /* NSObject+JKRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FD5B511A5269D400555EA2 /* NSObject+JKRuntime.m */; };
-		B810265C206A12160099CDA8 /* NSObject+JKAutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A24377221ACBE9CF00FFFEA1 /* NSObject+JKAutoCoding.m */; };
 		B810265D206A12160099CDA8 /* NSObject+JKBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB79A011AFDE0B600C12525 /* NSObject+JKBlockTimer.m */; };
 		B810265E206A12160099CDA8 /* NSObject+JKKVOBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A202D9AD1B10305500EAB199 /* NSObject+JKKVOBlocks.m */; };
 		B810265F206A14C00099CDA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2EF56B41B21C2D50005F730 /* Foundation.framework */; };
@@ -763,8 +761,6 @@
 		A232AC151B38EC9F00A149D3 /* UIView+JKRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKRecursion.m"; sourceTree = "<group>"; };
 		A23C10841B3D39AD00FA34AA /* UIViewController+JKBackButtonTouched.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JKBackButtonTouched.h"; sourceTree = "<group>"; };
 		A23C10851B3D39AD00FA34AA /* UIViewController+JKBackButtonTouched.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JKBackButtonTouched.m"; sourceTree = "<group>"; };
-		A24377211ACBE9CF00FFFEA1 /* NSObject+JKAutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKAutoCoding.h"; sourceTree = "<group>"; };
-		A24377221ACBE9CF00FFFEA1 /* NSObject+JKAutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKAutoCoding.m"; sourceTree = "<group>"; };
 		A24868791C1FB08D00D3318A /* UITableViewCell+JKDelaysContentTouches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+JKDelaysContentTouches.h"; sourceTree = "<group>"; };
 		A248687A1C1FB08D00D3318A /* UITableViewCell+JKDelaysContentTouches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+JKDelaysContentTouches.m"; sourceTree = "<group>"; };
 		A248782B1C55CC5C00AFF958 /* UIImage+JKSuperCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKSuperCompress.h"; sourceTree = "<group>"; };
@@ -2442,8 +2438,6 @@
 				A28BE3851A3ECF49005C4AC6 /* NSObject+JKGCD.m */,
 				A2FD5B501A5269D400555EA2 /* NSObject+JKRuntime.h */,
 				A2FD5B511A5269D400555EA2 /* NSObject+JKRuntime.m */,
-				A24377211ACBE9CF00FFFEA1 /* NSObject+JKAutoCoding.h */,
-				A24377221ACBE9CF00FFFEA1 /* NSObject+JKAutoCoding.m */,
 				BCB79A001AFDE0B600C12525 /* NSObject+JKBlockTimer.h */,
 				BCB79A011AFDE0B600C12525 /* NSObject+JKBlockTimer.m */,
 				A202D9AC1B10305500EAB199 /* NSObject+JKKVOBlocks.h */,
@@ -3321,7 +3315,6 @@
 				B8102586206A10E70099CDA8 /* UIButton+JKBlock.h in Headers */,
 				B81024ED206A102C0099CDA8 /* NSData+JKDataCache.h in Headers */,
 				B81024C5206A0FFD0099CDA8 /* NSDateFormatter+JKMake.h in Headers */,
-				B8102646206A120C0099CDA8 /* NSObject+JKAutoCoding.h in Headers */,
 				B8102630206A11D30099CDA8 /* JKCategories.h in Headers */,
 				B81024AA206A0FD00099CDA8 /* NSURLRequest+JKParamsFromDictionary.h in Headers */,
 				B81025A6206A110F0099CDA8 /* UIImageView+JKGeometryConversion.h in Headers */,
@@ -3452,6 +3445,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -3755,7 +3749,6 @@
 				B81024F8206A10390099CDA8 /* NSArray+JKSafeAccess.m in Sources */,
 				B810252C206A10660099CDA8 /* NSString+JKStringPages.m in Sources */,
 				B810251C206A10660099CDA8 /* NSString+JKSize.m in Sources */,
-				B810265C206A12160099CDA8 /* NSObject+JKAutoCoding.m in Sources */,
 				B81024FB206A10390099CDA8 /* NSData+JKBase64.m in Sources */,
 				B81025D9206A11470099CDA8 /* UIImage+JKResize.m in Sources */,
 				B810249D206A0FA70099CDA8 /* NSManagedObject+JKExtensions.m in Sources */,

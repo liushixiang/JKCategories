@@ -49,7 +49,6 @@
 #import <JKCategories/NSObject+JKAddProperty.h>
 #import <JKCategories/NSObject+JKAppInfo.h>
 #import <JKCategories/NSObject+JKAssociatedObject.h>
-#import <JKCategories/NSObject+JKAutoCoding.h>
 #import <JKCategories/NSObject+JKBlocks.h>
 #import <JKCategories/NSObject+JKBlockTimer.h>
 #import <JKCategories/NSObject+JKEasyCopy.h>
@@ -131,7 +130,6 @@
 #import "NSObject+JKAddProperty.h"
 #import "NSObject+JKAppInfo.h"
 #import "NSObject+JKAssociatedObject.h"
-#import "NSObject+JKAutoCoding.h"
 #import "NSObject+JKBlocks.h"
 #import "NSObject+JKBlockTimer.h"
 #import "NSObject+JKEasyCopy.h"
